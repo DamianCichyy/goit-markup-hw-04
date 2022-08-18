@@ -16,15 +16,13 @@ figure {
   text-decoration: none;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #757575;
+}
+
+.icon-position {
+  margin: 0 10px 0 30px;
 }
 
 .container {
@@ -63,7 +61,7 @@ body {
 }
 
 .contact-list {
-  width: 295px;
+  min-width: 295px;
   margin: 32px 0 32px 371px;
 }
 
