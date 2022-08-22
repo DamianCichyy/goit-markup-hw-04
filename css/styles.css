@@ -70,13 +70,26 @@ body {
   gap: 46px;
 }
 
+.section1-icon {
+  width: 270px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .contact-list {
-  gap: 50px;
-  padding: 0 0 0 277px;
+  gap: 30px;
+  padding: 0 0 0 257px;
 }
 
 .main-logo-section {
-  background-color: #2f303a;
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-blend-mode: difference;
   width: 100%;
   padding: 200px 0;
   gap: 30px;
@@ -178,7 +191,7 @@ body {
 }
 
 .section1-list {
-  padding: 94px 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .section1-list,
@@ -229,13 +242,35 @@ body {
   padding: 30px 0 0 0;
 }
 
+.our-team-social-links-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0 32px 30px 32px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  fill: #afb1b8;
+}
+
+.social-icons:hover {
+  fill: #fff;
+  background-color: #2196f3;
+}
+
 .our-team-paragraph {
   font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 10px 0 30px 0;
+  padding: 10px 0 16px 0;
 }
 
 img {
@@ -313,4 +348,19 @@ img {
 
 .border {
   border: 1px solid #eeeeee;
+}
+
+.icons-space {
+  margin-right: 10px;
+}
+
+.icons-header {
+  fill: #757575;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-header:hover {
+  fill: #2196f3;
 }
