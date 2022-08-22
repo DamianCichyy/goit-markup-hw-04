@@ -87,7 +87,7 @@ body {
 }
 
 .main-logo-section {
-  background: url(../images/background.jpg);
+  background: url(../images/background.jpg), #2f303a66;
   background-size: cover;
   background-blend-mode: difference;
   width: 100%;
