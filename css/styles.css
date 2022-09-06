@@ -308,6 +308,7 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   display: block;
+  border-radius: 4%;
 }
 
 .company-icons-svg-focus:hover,
@@ -405,7 +406,6 @@ img {
 
 .footer {
   display: flex;
-  align-items: center;
   flex-direction: row;
   padding: 60px 15px 60px 15px;
   gap: 70px;
@@ -459,7 +459,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 11px;
+  padding-top: 12px;
 }
 
 .footer-social-links-list {
